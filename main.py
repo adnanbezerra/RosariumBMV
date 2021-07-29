@@ -20,4 +20,4 @@ async def on_message(message):
     if message.content.startswith('$isso'):
         await message.channel.send('Dá certo sim, chefia')
 
-client.run('ODcwMzg1NjM4ODU4NDQ0OTAx.YQL_yw.7LOEqaW56IJB2cnI9r-NlDRdf6g')
+client.run('o token nem tá aqui, coleguinha :/')
