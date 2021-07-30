@@ -15,3 +15,4 @@ Aqui eu irei apenas anotar a lista de coisas para fazer no bot, para que eu não
 6. [ ] Definir o caractere que chama o bot
 7. [ ] Terminar de ler o artigo de como criar um bot
 8. [ ] Pensar em mais coisa para adicionar aqui
+9. [ ] Quotes de santos aleatórias
