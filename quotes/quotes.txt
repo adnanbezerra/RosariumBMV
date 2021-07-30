@@ -6,7 +6,7 @@
 `"Quem reza se salva, quem não reza não se salva" - Santo Afonso Maria de Ligório`
 `"Evangelize sempre, se necessário use palavras" - São Francisco de Assis`
 `"Que a luz da fé seja nosso farol e a esperança nossa fortaleza" - Santa Genoveva Torres Morales`
-`"Nunca, jamais jamais desanimeis, embora venham ventos contrários" - Madre Paulina`
+`"Nunca, jamais desanimeis, embora venham ventos contrários" - Madre Paulina`
 `"Imita o que vês de bom nos outros" - São Maximiliano Maria Kolbe`
 `"Mostremos com nosso exemplo aquilo que com palavras ensinamos" - Beata Barbara Maix`
 `"Deus nos prova, mas não nos abandona" - Madre Assunta Marchetti`
@@ -75,7 +75,7 @@
 `"O Santo Rosário é a melhor devoção do povo cristão" - São Francisco de Sales`
 `"A prática do Santo Rosário é verdadeiramente grande, sublime, divina. Foi o Céu que vo-la deu para converter os pecadores mais endurecidos e os hereges mais obstinados" - São Luís de Montfort`
 `"Se quisermos, pois, ajudar as santas almas do purgatório, procuremos rogar por elas à Santíssima Virgem em todas as nossas orações, aplicando-lhes especialmente o Santo Rosário, que lhes dá grande alívio" - Santo Afonso Maria de Ligório`
-`"Com esta arma, afastei muitas almas do diabo" - São João Maria Vianney`
+`"Com esta arma (o Santo Rosário), afastei muitas almas do diabo" - São João Maria Vianney`
 `"Todas as minhas obras e trabalhos têm como base duas coisas: A Missa e o Rosário" - São João Bosco`
 `"Pelo Rosário, podemos tudo alcançar. Segundo uma bela comparação, é uma longa cadeia que liga o céu e a terra: uma das extremidades está entre as nossas mãos e a outra nas da Santíssima Virgem. Enquanto o Rosário for rezado, Deus não poderá abandonar o mundo, pois essa oração é poderosa em seu coração" - Santa Teresinha do Menino Jesus`
 `"Amai Nossa Senhora e tornai-A amada. Rezai sempre o seu Rosário e divulgai-o" - São Pio de Pietrelcina`
@@ -132,7 +132,7 @@
 `"Digo que devemos pertencer a Jesus Cristo e servi-lo, não como servos mercenários, mas como escravos amorosos, que, por efeito de um grande amor, se dedicam a servi-lo como escravos, pela honra exclusiva de lhe pertencer" - São Luís de Montfort`
 `"(A Virgem Satíssima) É tão caridosa que ninguém repele, que implore sua intercessão, ainda que seja um pecador; pois, como dizem os Santos, nunca se ouviu dizer, desde que o mundo é mundo, que alguém que tenha recorrido à Santíssima Virgem, com confiança e peseverança, tenha sido desamparado ou repelido" - São Luís de Montfort`
 `"O Rosário é mais valioso que os salmos, pois: Assim como a realidade é mais importante que a prefiguração, e o corpo mais importante do que a sombra, da mesma forma o Rosário é mais grandioso que o Saltério de Davi que nada mais fez que prefigurá-lo" - São Luís de Montfort`
-`"Confesso com toda a Igreja que Maria é uma pura criatura saída das mãos do Altíssimo. Comparada, portanto, á Majestade Infinita ela é menos que um átomo, é , antes um nada, pois que só ele é ” Aquele que é” (Ex 3,14)" - São Luís de Montfort`
+`"Confesso com toda a Igreja que Maria é uma pura criatura saída das mãos do Altíssimo. Comparada, portanto, à Majestade Infinita ela é menos que um átomo, é, antes, um nada, pois que só ele é "Aquele que é" (Ex 3,14)" - São Luís de Montfort`
 `"Tudo que convém a DEUS pela Natureza, convém a Maria pela Graça" - São Luís de Montfort`
 `"Maria é um lugar Santo, o Santo dos Santos, em que se formam e modelam os Santos" - São Luís de Montfort`
 `"Só Maria achou graça diante de DEUS (Lc 1,30), sem auxílio de qualquer outra criatura" - São Luís de Montfort`
