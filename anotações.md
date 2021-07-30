@@ -8,7 +8,7 @@ Aqui eu irei apenas anotar a lista de coisas para fazer no bot, para que eu não
   - [ ] Gloria
   - [ ] Oratio Fatimae
 
-2. [ ] Procurar a API para fotos aleatórias do Google
+2. [ ] Criar o banco de imagens para cada mistério
 3. [ ] Criar o sistema de escolha das orações
 4. [ ] Criar o sistema de acompanhamento das orações
 5. [ ] Explicação das cláusulas
