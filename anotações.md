@@ -1,12 +1,12 @@
 Aqui eu irei apenas anotar a lista de coisas para fazer no bot, para que eu não me esqueça 
 
 1. [x] Colocar as orações em latim
-  - [ ] Ave Maria
-  - [ ] Pater Noster
-  - [ ] Credo
-  - [ ] Salve Regina
-  - [ ] Gloria
-  - [ ] Oratio Fatimae
+  - [x] Ave Maria
+  - [x] Pater Noster
+  - [x] Credo
+  - [x] Salve Regina
+  - [x] Gloria
+  - [x] Oratio Fatimae
 
 2. [ ] Criar o banco de imagens para cada mistério
 3. [ ] Criar o sistema de escolha das orações
@@ -16,4 +16,4 @@ Aqui eu irei apenas anotar a lista de coisas para fazer no bot, para que eu não
 7. [x] Terminar de ler o artigo de como criar um bot
 8. [ ] Pensar em mais coisa para adicionar aqui
 9. [x] Quotes de santos aleatórias
-10. [ ] Orações em português
+10. [x] Orações em português
