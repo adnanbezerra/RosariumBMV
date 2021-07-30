@@ -1,6 +1,6 @@
 Aqui eu irei apenas anotar a lista de coisas para fazer no bot, para que eu não me esqueça 
 
-1. [ ] Colocar as orações em latim e em português
+1. [x] Colocar as orações em latim
   - [ ] Ave Maria
   - [ ] Pater Noster
   - [ ] Credo
@@ -13,6 +13,7 @@ Aqui eu irei apenas anotar a lista de coisas para fazer no bot, para que eu não
 4. [ ] Criar o sistema de acompanhamento das orações
 5. [ ] Explicação das cláusulas
 6. [ ] Definir o caractere que chama o bot
-7. [ ] Terminar de ler o artigo de como criar um bot
+7. [x] Terminar de ler o artigo de como criar um bot
 8. [ ] Pensar em mais coisa para adicionar aqui
-9. [ ] Quotes de santos aleatórias
+9. [x] Quotes de santos aleatórias
+10. [ ] Orações em português
