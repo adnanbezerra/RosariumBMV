@@ -20,3 +20,4 @@ Aqui eu irei apenas anotar a lista de coisas para fazer no bot, para que eu não
 11. [ ] Modificar o sistema de imports
 12. [ ] Reduzir os if's
 13. [ ] Pesquisar encoding e with
+14. [ ] Organizar a ideia dos terços (São Bento, Jericó, Rosário)
