@@ -17,3 +17,6 @@ Aqui eu irei apenas anotar a lista de coisas para fazer no bot, para que eu não
 8. [ ] Pensar em mais coisa para adicionar aqui
 9. [x] Quotes de santos aleatórias
 10. [x] Orações em português
+11. [ ] Modificar o sistema de imports
+12. [ ] Reduzir os if's
+13. [ ] Pesquisar encoding e with
