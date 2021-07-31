@@ -14,7 +14,7 @@ Aqui eu irei apenas anotar a lista de coisas para fazer no bot, para que eu não
 5. [ ] Explicação das cláusulas
 6. [ ] Definir o caractere que chama o bot
 7. [x] Terminar de ler o artigo de como criar um bot
-8. [ ] Pensar em mais coisa para adicionar aqui
+8. [x] Pensar em mais coisa para adicionar aqui
 9. [x] Quotes de santos aleatórias
 10. [x] Orações em português
 11. [ ] Modificar o sistema de imports
