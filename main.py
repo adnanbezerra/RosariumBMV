@@ -1,138 +1,35 @@
 import discord
-import os
-import random
+from os import getenv
+from random import choice
 
 client = discord.Client()
 
-
 @client.event
 async def on_ready():
-    print('We have logged in as {0.user}'.format(client))
+    print('We have logged in as {0.user}'.format(client))  
     await client.change_presence(activity=discord.Activity(type=discord.ActivityType.watching, name='for $rezar'))
-
 
 @client.event
 async def on_message(message):
     if message.author == client.user:
         return
 
-    if message.content.startswith('$hello'):
-        await message.channel.send('Hello!')
-
-    if message.content.startswith('$salve'):
-        await message.channel.send('Salve Regina, Mater Misericordiae!')
-
     # Aqui estão os comandos de orações individuais em latim
     # Eu ainda não desenvolvi o sistema para selecionar o idioma da oração.
 
     # Ave Maria
-    if message.content.startswith('$ave-maria-la'):
-        with open('latim/ave.txt', 'r', encoding='utf8') as f:
-            await message.channel.send(f.read())
-
-    # Pater Noster
-    if message.content.startswith('$pater-noster-la'):
-        with open('latim/pater.txt',
-                  'r',
-                  encoding='utf8') as f:
-            await message.channel.send(f.read())
-
-    # Credo latim
-    if message.content.startswith('$credo-la'):
-        with open('latim/credo.txt',
-                  'r',
-                  encoding='utf8') as f:
-            await message.channel.send(f.read())
-
-    # Gloria
-    if message.content.startswith('$gloria-la'):
-        with open('latim/gloria.txt',
-                  'r',
-                  encoding='utf8') as f:
-            await message.channel.send(f.read())
-
-    # Salve Regina
-    if message.content.startswith('$salve-regina-la'):
-        with open('latim/salve.txt',
-                  'r',
-                  encoding='utf8') as f:
-            await message.channel.send(f.read())
-
-    # Sub tuum praesidium
-    if message.content.startswith('$sub-tuum-la'):
-        with open(
-                'latim/praesidium.txt',
-                'r',
-                encoding='utf8') as f:
-            await message.channel.send(f.read())
-
-    # Oratio Fatimae
-    if message.content.startswith('$oratio-la'):
-        with open('latim/oratio.txt',
-                  'r',
-                  encoding='utf8') as f:
-            await message.channel.send(f.read())
-
-    # Aqui estão os comandos de orações individuais em português
-
-    # Ave Maria
-    if message.content.startswith('$ave-maria-pt'):
-        with open('portugues/ave.txt',
-                  'r',
-                  encoding='utf8') as f:
-            await message.channel.send(f.read())
-
-    # Pai Nosso
-    if message.content.startswith('$pater-noster-pt'):
-        with open(
-                'portugues/pater.txt',
-                'r',
-                encoding='utf8') as f:
-            await message.channel.send(f.read())
-
-    # Credo portugues
-    if message.content.startswith('$credo-pt'):
-        with open(
-                'portugues/credo.txt',
-                'r',
-                encoding='utf8') as f:
-            await message.channel.send(f.read())
-
-    # Gloria
-    if message.content.startswith('$gloria-pt'):
-        with open(
-                'portugues/gloria.txt',
-                'r',
-                encoding='utf8') as f:
-            await message.channel.send(f.read())
-
-    # Salve Regina
-    if message.content.startswith('$salve-regina-pt'):
-        with open(
-                'portugues/salve.txt',
-                'r',
-                encoding='utf8') as f:
-            await message.channel.send(f.read())
-
-    # Sub tuum praesidium
-    if message.content.startswith('$sub-tuum-pt'):
-        with open(
-                'portugues/praesidium.txt',
-                'r',
-                encoding='utf8') as f:
-            await message.channel.send(f.read())
-
-    # Oratio Fatimae
-    if message.content.startswith('$oratio-pt'):
-        with open(
-                'portugues/oratio.txt',
-                'r',
-                encoding='utf8') as f:
-            await message.channel.send(f.read())
-
-    # Pega citação aleatória
-    if message.content.startswith('$quote'):
+    if message.content.startswith('$'):
+      if message.content == '$salve':
+        await message.channel.send('Salve Regina, Mater Misericordiae!')
+        return
+      if message.content == '$pray':
+        return
+      if message.content == '$quote':
         await message.channel.send(getCitacao())
+      else:
+        mensagem = message.content
+        with open(retornaOracao(mensagem), 'r', encoding='utf8') as f:
+            await message.channel.send(f.read())
 
 
 # Função responsável por criar as citações que serão usadas ao longo de vários momentos pelo bot
@@ -142,7 +39,26 @@ def getCitacao():
         for x in f:
             quotes.append(x)
 
-    return (random.choice(quotes))
+    return (choice(quotes))
 
+entradas = {
+  '$ave-maria-la': 'latim/ave.txt',
+  '$pater-noster-la': 'latim/pater.txt',
+  '$credo-la': 'latim/credo.txt',
+  '$gloria-la': 'latim/gloria.txt',
+  '$salve-regina-la': 'latim/salve.txt',
+  '$sub-tuum-la': 'latim/praesidium.txt',
+  '$oratio-la': 'latim/oratio.txt',
+  '$ave-maria-pt': 'portugues/ave.txt',
+  '$pater-noster-pt': 'portugues/pater.txt',
+  '$credo-pt': 'portugues/credo.txt',
+  '$gloria-pt': 'portugues/gloria.txt',
+  '$salve-regina-pt': 'portugues/salve.txt',
+  '$sub-tuum-pt': 'portugues/praesidium.txt',
+  '$oratio-pt': 'portugues/oratio.txt',
+}
 
-client.run(os.getenv('TOUKEN'))
+def retornaOracao(entrada):
+  return entradas[entrada]
+
+client.run(getenv('TOUKEN'))
