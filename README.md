@@ -7,7 +7,7 @@ que eu venha a pensar daqui que fique pronto. Todos estes em português e em lat
 Os projetos estão no início! Salve Mater Immaculata.
 
 ## Release 10/08/2021
-Adicionadas novas citações de santos. Iniciada a divulgação do bot. Comecei a implementar dicionários para o uso
+Adicionadas novas citações de santos. Iniciada a divulgação do bot. Comecei a implementar OO para o uso
 do design pattern Strategy.
 
 ## Release 09/08/2021
