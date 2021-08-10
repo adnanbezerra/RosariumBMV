@@ -6,6 +6,9 @@ que eu venha a pensar daqui que fique pronto. Todos estes em português e em lat
 
 Os projetos estão no início! Salve Mater Immaculata.
 
+## Release 10/08/2021
+Adicionadas novas citações de santos.
+
 ## Release 09/08/2021
 Adicionadas novas citações de santos. Abertura de arquivos agora se dá pelo método with. O projeto agora roda no repl.it,
 não mais no meu computador. Corrigidos pequenos problemas nas orações. Status do bot adicionado.
